@@ -1,6 +1,6 @@
 # --------------------------------------------------------------------------------------------------------------------
 # The "data" repository includes all the raw RES and load data needed for the 33-bus test case.
-# In the test case used in the manuscript, the modifications are preseneted in the function "obtainUBdata"
+# In the test case used in the manuscript, the modifications are presented in the function "obtainUBdata"
 # The system is defined in "IEEE_33"
 # --------------------------------------------------------------------------------------------------------------------
 from Bus import Bus
