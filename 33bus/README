@@ -1,0 +1,12 @@
+The "data" repository includes all the raw RES and load data needed for the 33-bus test case.
+
+In the test case used in the manuscript, the following modifications on the data have been made:
+
+1. The forecast wind power(at bus 17, 24 and 32) has been multiplied by 1.5. They do not have reactive power capacities.
+2. The forecast PV power (at other buses) has been multiplied by 0.35. They are implemented with inverters, whose capacities are 130% of the maximum upper bound of predicted generation ceiling of the day
+3. The "load.xlsx" only gives the shape of the 96-section load curves. One can reshape the data for case study.
+--------------------------------------------------------------------------------------------------------------------
+The definition of the system and the MGTs are in 33bus.py
+The active power output lies between LB and UB.
+The reactive power output lies between 0 and 0.1LB
+--------------------------------------------------------------------------------------------------------------------
